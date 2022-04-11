@@ -25,7 +25,8 @@
     "sass": "^1.50.0"
   },
   "scripts": {
-    "compile": "sas sass/style.scss css/style.css ~~watch"
+    "compile": "sas sass/style.scss css/style.css ~~watch",
+    "build-styles": "sas sass/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
