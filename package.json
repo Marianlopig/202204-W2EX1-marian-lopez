@@ -22,11 +22,13 @@
     "to-regex-range": "^5.0.1"
   },
   "devDependencies": {
-    "sass": "^1.50.0"
+    "sass": "^1.50.0",
+    "husky": "^7.0.0"
   },
   "scripts": {
     "compile": "sass sass/style.scss css/style.css -w",
-    "build-styles": "sass sass/style.scss css/style.css"
+    "build-styles": "sass sass/style.scss css/style.css",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -39,4 +41,6 @@
     "url": "https://github.com/Marianlopig/202204-W2EX1-marian-lopez/issues"
   },
   "homepage": "https://github.com/Marianlopig/202204-W2EX1-marian-lopez#readme"
+  
 }
+
